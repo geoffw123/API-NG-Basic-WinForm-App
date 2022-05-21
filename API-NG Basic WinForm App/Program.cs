@@ -23,11 +23,7 @@ namespace API_NG_App
          
             if (dr == DialogResult.OK)
             {
-                //JsonRpcClient jsonRpcClient = frmLogin.jsonRpcClient;
-                //Application.Run(new Form1(frmLogin.jsonRpcClient));
-
                 Application.Run(new Form1());
-
             }
         }
     }

@@ -71,8 +71,21 @@ namespace API_NG_App
                 lblLoginFeedback.ForeColor = Color.Red;
                 lblLoginFeedback.Refresh();
 
-                Thread.Sleep(4000); // Time to read error msg
-                DialogResult = DialogResult.No;
+                // put this back to close down form on failed login
+                //Thread.Sleep(4000); // Time to read error msg
+                //DialogResult = DialogResult.No;
+            }
+        }
+
+        private void txtBoxPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;  //trying to stop the annoying beep ?
+
+                // Then Enter key was pressed
+                btnLogin_Click(sender, e);
             }
         }
     }

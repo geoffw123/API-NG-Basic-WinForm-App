@@ -97,6 +97,7 @@
             this.txtBoxPassword.Size = new System.Drawing.Size(179, 30);
             this.txtBoxPassword.TabIndex = 4;
             this.txtBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBoxPassword_KeyDown);
             // 
             // lblLoginFeedback
             // 
