@@ -4,7 +4,6 @@ using Newtonsoft.Json;
 
 namespace API_NG_App.TO
 {
-
     public class MarketTypeResult
     {
         [JsonProperty(PropertyName = "marketType")]

@@ -38,6 +38,7 @@
             // 
             // btnGetRace
             // 
+            this.btnGetRace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGetRace.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetRace.Location = new System.Drawing.Point(991, 33);
             this.btnGetRace.Name = "btnGetRace";
@@ -49,15 +50,18 @@
             // 
             // rtbText
             // 
+            this.rtbText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbText.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbText.Location = new System.Drawing.Point(25, 12);
+            this.rtbText.Location = new System.Drawing.Point(6, 4);
             this.rtbText.Name = "rtbText";
-            this.rtbText.Size = new System.Drawing.Size(944, 708);
+            this.rtbText.Size = new System.Drawing.Size(960, 708);
             this.rtbText.TabIndex = 1;
             this.rtbText.Text = "";
             // 
             // btnClear
             // 
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(991, 646);
             this.btnClear.Name = "btnClear";
@@ -69,6 +73,7 @@
             // 
             // btnGetPrices
             // 
+            this.btnGetPrices.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGetPrices.Enabled = false;
             this.btnGetPrices.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetPrices.Location = new System.Drawing.Point(991, 115);
@@ -81,6 +86,7 @@
             // 
             // btnSendOrder
             // 
+            this.btnSendOrder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSendOrder.Enabled = false;
             this.btnSendOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSendOrder.Location = new System.Drawing.Point(991, 199);
@@ -93,6 +99,7 @@
             // 
             // btnLogout
             // 
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.Location = new System.Drawing.Point(991, 567);
             this.btnLogout.Name = "btnLogout";
